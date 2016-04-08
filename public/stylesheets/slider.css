@@ -1,0 +1,144 @@
+.slider,.picBox{
+	height: auto;
+	width: 100%;
+}
+
+
+#images img{	
+	position: absolute;	
+	transition: 1s;
+   visibility: hidden;
+
+} 
+/*
+
+#imgs img{
+	
+	position: absolute;
+	
+	transition: 1s;
+   visibility: hidden;
+
+} 
+
+#Snav{
+	display: block;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	
+
+}
+
+#SnavUp{
+display: block;
+width: 100%;
+height: 40%;
+
+
+}
+
+#Scircles{
+	
+	display: block;
+	width: 5%;
+	height: 15%;
+	margin-right: 5%;
+	margin-top: 2%;
+	float: right;
+}
+
+#Scircles ul{
+
+	margin: 0;
+	float: right;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#Scircles li{
+list-style: none;
+display: block;
+background-color: rgba(0,0,0,1);
+width: 10%;
+height: 100%;
+margin-left: 6%;
+float: left;
+visibility: hidden;
+
+
+
+border-bottom-left-radius: 25%;
+border-top-left-radius: 25%;
+border-bottom-right-radius: 25%;
+border-top-right-radius: 25%;
+
+}
+
+
+#SnavMiddle{
+	display: block;
+	width: 100%;
+	height: 20%;
+	margin-top: 1%;
+	
+}
+
+#Sleft{
+	
+	
+	float: left;
+	opacity: 0.5;
+	margin-left:1%;
+
+}
+
+#Sleft:hover{ 
+	opacity: 0.8
+}
+
+#Sright{
+	
+	
+	float: right;
+	opacity: 0.5;
+	margin-right:3%;
+
+}
+
+#Sright:hover{ 
+	opacity: 0.8
+} 
+
+#SnavBottom{
+	display: block;
+	background-color: rgba(0,0,0,0.8);
+	width: 98%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+}
+
+#SnavBottom p{
+	font:normal;
+	color: #fff;
+	position: absolute;
+	margin-top: 1%;
+	left: 0;
+	margin-left: 3%;
+	visibility: hidden;
+
+
+}
+
+
+.w3-red, .w3-hover-red:hover {
+    color: #fff !important;
+    background-color: #2980b9!important;
+}
+.w3-container {
+    padding: 0.01em 16px;
+    width: 100%;
+}
+*/

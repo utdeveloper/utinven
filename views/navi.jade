@@ -1,0 +1,50 @@
+nav.navbar.navbar-inverse( style={margin:0,borderradius:0})
+	.container-fluid
+		.navbar-header
+			button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand(href='#')	My Company Name
+		#myNavbar.collapse.navbar-collapse
+			ul.nav.navbar-nav
+				li.active
+					a(href='#') Home
+				li.dropdown
+					a.dropdown-toggle(data-toggle='dropdown', href='#')
+						|	Product
+						span.caret
+					ul.dropdown-menu
+						li
+							a(href='#') Top 10 Products
+						li
+							a(href='#') Products list
+						
+				li.dropdown
+					a.dropdown-toggle(data-toggle='dropdown', href='#')
+						|	Service
+						span.caret
+					ul.dropdown-menu
+						li
+							a(href='#') Top 10 Services
+						li
+							a(href='#') Service List list
+					
+				li
+					a(href='#') Gallery
+
+				li
+					a(href='#') About Us
+
+				li
+					a(href='#') Contact Us
+
+			ul.nav.navbar-nav.navbar-right
+				li
+					a(href='#')
+						span.glyphicon.glyphicon-user
+						|	Sign Up
+				li
+					a(href='#')
+						span.glyphicon.glyphicon-log-in
+						|	Login
