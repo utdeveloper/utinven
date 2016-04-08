@@ -3,17 +3,19 @@
 
     function Load()
     {
+       
+
         nrShown=0;
 
         Vect= new Array(nrImg+10);
         Vect[0]=document.getElementById("img1");
         Vect[0].style.visibility="visible";
 
-        document.getElementById("S"+0).style.visibility="visible";
+        //document.getElementById("S"+0).style.visibility="visible";
 
             for(var i=1;i<nrImg;i++){
                 Vect[i]=document.getElementById("img"+(i+1));
-                document.getElementById("S"+i).style.visibility="visible";
+                //document.getElementById("S"+i).style.visibility="visible";
             }
 
 
