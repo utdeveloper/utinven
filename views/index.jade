@@ -13,13 +13,18 @@ head
 	meta(name='viewport', content='width=device-width, initial-scale=1.0')
 
 body(onload='Load()')
-	#navibar
-		include ./navi.jade
-	#imageslider
-		include ./slider.jade
-	#topProduct
-		.row
-			.col-sm-12
-				p
-					| fgjhasdfgaskldjghsadghsadg
-					| sdgsdgsdg
+	.row(style='height:auto')
+		.col-sm-12(style='height:auto,position: absolute')
+			#navibar
+				include ./navi.jade
+	.row
+		#slide.col-sm-12
+			#imageslider
+				include ./slider.jade
+
+	.row
+		.col-sm-12
+			.Top10Product
+				#topic
+					h2	Top 10 products
+				#products

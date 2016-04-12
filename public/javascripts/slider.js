@@ -1,25 +1,63 @@
     var nrImg=5;
     var IntSecound=4;
 
+   
+
+        $(document).ready(function(){
+            $(window).resize(function(){
+               var y=document.getElementById("img1");
+                var heigh=y.clientHeight;     
+                var sn=  heigh-10; 
+                document.getElementById("slide").setAttribute("style", "min-height:"+heigh+"px;");
+                document.getElementById("snav").setAttribute("style", "height:"+sn+"px;");
+                console.log(heigh); 
+                console.log(sn); 
+                 
+            });
+        });
+
+
+
+
+
+
+
     function Load()
     {
-       
+        //set container height
 
+        var y=document.getElementById("img1");
+                var heigh=y.clientHeight;        
+                document.getElementById("slide").setAttribute("style", "min-height:"+heigh+"px;");
+                document.getElementById("snav").setAttribute("style", "height:"+heigh+"px;");
+                console.log(heigh); 
+
+
+
+
+
+
+
+       
+        var y=document.getElementById("img1");
+        var heigh=y.clientHeight;        
+        document.getElementById("slide").setAttribute("style", "height:"+heigh+"px;");
+        console.log(heigh); 
         nrShown=0;
 
         Vect= new Array(nrImg+10);
         Vect[0]=document.getElementById("img1");
         Vect[0].style.visibility="visible";
 
-        //document.getElementById("S"+0).style.visibility="visible";
+        document.getElementById("S"+0).style.visibility="visible";
 
             for(var i=1;i<nrImg;i++){
                 Vect[i]=document.getElementById("img"+(i+1));
-                //document.getElementById("S"+i).style.visibility="visible";
+                document.getElementById("S"+i).style.visibility="visible";
             }
 
 
-       // document.getElementById("S"+0).style.backgroundColor="rgba(255, 255, 255, 0.90)";
+        document.getElementById("S"+0).style.backgroundColor="rgba(255, 255, 255, 0.90)";
        // document.getElementById("SP"+nrShown).style.visibility="visible";
 
         mytime = setInterval(Timer, IntSecound * 1000);
@@ -69,12 +107,12 @@ function Effect(){
         Vect[i].style.opacity="0";
         Vect[i].style.visibility="hidden";
 
-       // document.getElementById("S"+i).style.backgroundColor="rgba(0,0,0,0.70)";
+        document.getElementById("S"+i).style.backgroundColor="rgba(0,0,0,0.70)";
       // document.getElementById("SP" + i).style.visibility = "hidden";
     }
     
     Vect[nrShown].style.opacity="1";
     Vect[nrShown].style.visibility="visible";
-   //  document.getElementById("S" + nrShown).style.backgroundColor = "rgba(255, 255, 255, 0.90)";
+  document.getElementById("S" + nrShown).style.backgroundColor = "rgba(255, 255, 255, 0.90)";
     // document.getElementById("SP" + nrShown).style.visibility = "visible";
     }
