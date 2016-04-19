@@ -8,6 +8,7 @@ head
 	script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
 	link(rel='stylesheet', href='/stylesheets/index.css')
 	link(rel='stylesheet', href='/stylesheets/slider.css')
+	link(rel='stylesheet', href='/stylesheets/productlist.css')
 	script(src='/javascripts/slider.js')
 	link(rel='stylesheet', href='http://www.w3schools.com/lib/w3.css')
 	meta(name='viewport', content='width=device-width, initial-scale=1.0')
@@ -26,5 +27,7 @@ body(onload='Load()')
 		.col-sm-12
 			.Top10Product
 				#topic
-					h2	Top 10 products
-				#products
+					h2	Top products
+				#products					
+					include ./productlist.jade
+	

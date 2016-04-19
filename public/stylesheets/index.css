@@ -18,13 +18,15 @@ body{
 .Top10Product{
 	/*background-color: #00b0ff;
 	color:white;*/
-	height: 10%;
+	
 	margin: 0px;
-	background-image: url("images/Backgroung/bac1.jpg");
+	margin-bottom: 20px;
+	
 
 }
 #topic {
-
+	background-image: url("images/Backgroung/Untitled.png");
+	height: 10%;
 }
 #topic h2{
 	margin-top: 0px;
@@ -32,10 +34,12 @@ body{
 	padding: 0;
 	padding-top: 5px;
 	padding-left: 10px;
+	font-weight: bold;
 
 }
 #products{
 	width: 100%;
+	height:auto;
 
 }
 
