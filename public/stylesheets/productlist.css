@@ -62,6 +62,47 @@
 	position: relative;
 }
 
+#controler{
+	width: 100%;
+	display: block;
+	position: absolute;
+	height: 50%;
+	margin-top: 1%;
+	border-radius: 
+}
+#pimdiv{
+	padding: 0;
+	background-color: #eeeeee;
+	padding-right: 10px;
+}
+
+#pimg img{
+	width: 100%;
+	padding: 5px;
+	padding-top: 0px;
+	height: 150%;
+
+
+}
+
+#pdis{
+	padding: 0;
+	text-align: justify;
+	overflow: hidden;
+    text-overflow: ellipsis; 
+
+	height: inherit;
+	padding-right: 10px;
+	
+}
+
+#pdis p{
+	
+}
+
+
+
+
 
 
 /*
